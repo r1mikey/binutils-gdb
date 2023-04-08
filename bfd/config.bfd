@@ -240,7 +240,7 @@ case "${targ}" in
 #ifdef BFD64
    aarch64-*-solaris2*)
     targ_defvec=aarch64_elf64_le_vec
-    targ_selvecs="aarch64_elf64_be_vec aarch64_elf32_le_vec aarch64_elf32_be_vec arm_elf32_le_vec arm_elf32_be_vec"
+    targ_selvecs="aarch64_elf64_be_vec aarch64_elf32_le_vec aarch64_elf32_be_vec arm_elf32_le_vec arm_elf32_be_vec aarch64_pei_vec"
      want64=true
      ;;
   aarch64-*-darwin*)
